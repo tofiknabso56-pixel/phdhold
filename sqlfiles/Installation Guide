@@ -1,0 +1,13 @@
+Installation Guide : 
+
+PHP Version : 8.1 
+
+1) Upload Script and Unzip & "File" Folder Open and Move All Public_html
+2) Goto PHPMyAdmin -> Solar Investment.sql Upload
+3) Goto .evn File & Edit &  Your URL Link & Database User Name and Database Name and Password  All Enter
+
+Done :)
+
+Admin : - www.domain.com/secured/login
+Id : admin@gmail.com
+Pass : 123456

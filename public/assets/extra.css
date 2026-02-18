@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.check-section {
+	width: 100%;
+	background: #FFAA01;
+	padding: 15px 7px;
+	text-align: center;
+}
+.title-area {
+	width: 100%;
+}
+.title-area h2 {
+	color: #040000;
+	text-transform: capitalize;
+	font-size: 30px;
+}
+.reward-area {
+	width: 100%;
+	padding: 10px 5px;
+	background: #fff;
+	margin-top: 30px;
+	border-radius: 6px;
+    overflow: hidden;
+}
+.reward-area .single-reward {
+	width: 20%;
+	padding: 6px 3px;
+	transition: 0.6s;
+	cursor: pointer;
+	float: left;
+}
+.reward-area .single-reward:hover {
+    background-color: #FFAB7F;
+}
+.reward-area .single-reward .reward-logo {
+	width: 100%;
+	background-color: #fff;
+	border-radius: 4px;
+}
+.reward-area .single-reward .reward-logo img {
+	width: 80%;
+	object-fit: cover;
+}
+.reward-area .single-reward .reward-info {
+	width: 100%;
+}
+.reward-area .single-reward .reward-info h3 {
+	font-size: 25px;
+}
+.reward-area .single-reward .reward-info p {
+	text-transform: uppercase;
+	font-size: 14px;
+	margin: 5px 0 2px 0;
+}
+.reward-area .single-reward .reward-info img {
+	width: 15px;
+	height: 15px;
+	object-fit: cover;
+}

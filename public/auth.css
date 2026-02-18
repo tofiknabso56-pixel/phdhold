@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    background: #288eeb;
+    height: 100vh;
+    padding: 15px;
+}
+.logo h2 {
+    text-align: center;
+    margin-top: 45px;
+    font-size: 41px;
+    font-style: italic;
+}
+
+.welcome h1 {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.welcome p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    color: #fff;
+    font-size: 19px;
+    margin-bottom: 7px;
+}
+.form-group {
+    margin-bottom: 25px;
+}
+
+input {
+    width: 100%;
+    font-size: 17px;
+    height: 45px;
+    padding-left: 3px;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+}
+
+input:focus-visible{
+    width: 100%;
+    font-size: 17px;
+    height: 45px;
+    padding-left: 3px;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+    outline: none;
+}
+
+input:focus{
+    width: 100%;
+    font-size: 17px;
+    height: 45px;
+    padding-left: 3px;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border-bottom: 1px solid #fff;
+}
+
+input::placeholder{
+    color: #fff9 !important;
+    font-style: italic !important;
+}
+
+button.auth__button {
+    width: 100%;
+    padding: 17px 0;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0px 0px 10px #fff;
+    color: #288eeb;
+    margin-top: 22px;
+}
+
+.botton_flexer {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+.botton_flexer a {
+    margin: 15px;
+    color: #fff;
+    text-decoration: none;
+}
